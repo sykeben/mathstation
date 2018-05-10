@@ -9,7 +9,8 @@ class MathShell (cmd.Cmd):
     file = None
 
     # ----- Basic Math Commands -----
-    def do_add(self, ):
+    def do_add(self, num):
+        print("Not there yet!")
 
 def parse(arg):
     'Convert a series of zero or more numbers to an argument tuple'
